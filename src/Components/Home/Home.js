@@ -12,44 +12,33 @@ const Home = () => {
     return (
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 ">
+                <div class="col-sm-12 text-center">
                     <h3>Muaz and Rabab </h3>
                 </div>
-                
-               
-                 
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-  <div class="container-fluid">
-  <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-      <li class="nav-item p-1">
-      <button type="button" class="btn btn-primary p-1" onClick={() => setImage(muaz)} >Muaz</button>
-        </li>
-        <li class="nav-item p-1">
-        <button type="button" class="btn btn-success p-1" onClick={() => setImage(rabab)} >Rabab</button>
-        </li>
-        <li class="nav-item p-1">
-        <button type="button" class="btn btn-info p-1" onClick={() => setImage(mura)} >Baby</button>
-        </li>
-        <li class="nav-item p-1">
-        <button type="button" class="btn btn-danger p-1" onClick={() => setImage(baba)} >Baba</button>
-        </li>     
-        <li class="nav-item p-1">
-        <button type="button" class="btn btn-warning p-1" onClick={() => setImage(nanu)} >Nanu</button>
-        </li>
-        <li class="nav-item p-1">
-        <button type="button" class="btn btn-primary" onClick={() => setImage(m1)} >Tareq</button>
-        </li>
-        <li class="nav-item p-1">
-        <button type="button" class="btn btn-success" onClick={() => setImage(m2)} >Zaber</button>
-        </li>
-      </ul>
-    
-  </div>
-  </div>
-</nav>
-              
-                
+                <ul class="nav">
+                    <li class="nav-item p-1">
+                        <button type="button" class="btn btn-primary p-1" onClick={() => setImage(muaz)} >Muaz</button>
+                    </li>
+                    <li class="nav-item p-1">
+                        <button type="button" class="btn btn-success p-1" onClick={() => setImage(rabab)} >Rabab</button>
+                    </li>
+                    <li class="nav-item p-1">
+                        <button type="button" class="btn btn-info p-1" onClick={() => setImage(mura)} >Baby</button>
+                    </li>
+                    <li class="nav-item p-1">
+                        <button type="button" class="btn btn-danger p-1" onClick={() => setImage(baba)} >Baba</button>
+                    </li>
+                    <li class="nav-item p-1">
+                        <button type="button" class="btn btn-warning p-1" onClick={() => setImage(nanu)} >Nanu</button>
+                    </li>
+                    <li class="nav-item p-1">
+                        <button type="button" class="btn btn-primary" onClick={() => setImage(m1)} >Tareq</button>
+                    </li>
+                    <li class="nav-item p-1">
+                        <button type="button" class="btn btn-success" onClick={() => setImage(m2)} >Zaber</button>
+                    </li>
+                </ul>
+
                 <div class="col-sm-12">
                     <img class="img-fluid" src={image} alt="" />
                 </div>
