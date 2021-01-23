@@ -25,7 +25,7 @@ const Home = () => {
                     <button type="button" class="btn btn-success" onClick={() => setImage(rabab)} >Rabab</button>
     </div>
                     <div class="col">
-                    <button type="button" class="btn btn-info" onClick={() => setImage(mura)} >Muaz & Rabab</button>
+                    <button type="button" class="btn btn-info" onClick={() => setImage(mura)} >Baby</button>
     </div>
                     <div class="col">
                     <button type="button" class="btn btn-info" onClick={() => setImage(baba)} >Baba</button>
